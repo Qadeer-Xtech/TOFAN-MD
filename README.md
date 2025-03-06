@@ -116,3 +116,51 @@ ___
 - <a href="https://render.com"><img title="Deploy Now" src="https://img.shields.io/badge/DEPLOY NOW-h?color=orange&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+___
+
+</details>
+
+<details>
+<summary>VIEW BOT UPDARTED AND NEW FUTURES🍂</summary>
+
+| Commands Name               |Yes  |
+| ----------------------------| ----|
+| •AUTO REACT MESSAGE ADDED   | ✅  |
+| •AUTO REPLY MESSAGE ADDED   | ✅  |
+| •AUTO REACT STATUS ADDED    | ✅  |
+| •AUTO READ MESSAGE ADDED    | ✅  |
+| •AUTO REJECT CALL ADDED     | ✅  |
+| •AUDIO REPLY ADDED          | ✅  |
+| •AUTO SAVE CONTACTS ADDED   | ✅  |
+| •FUN CMD HACK ADDED         | ✅  |
+| •GPT ADDED                  | ✅  |
+| •AUTO REPLY STATUS.        | ✅ |
+| •ANTI DELETE FIXED.        | ✅ |
+
+FORWARD COMMAND ADDED you share a message to all members in the group automatic by use bot😅😅✅✅
+
+</details>
+
+***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴀɴᴅ ɪʙʀᴀʜɪᴍ***
+
+
+
+
+---
+
+**HOST ON DISOCOR PANNELS**
+<details>
+<summary>CLICK FOR MORE</summary>
+<a href="https://github.com/Qadeer-bhai/TOFAN-MD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-yellow" alt="Rainhost Files" width="150"></a>
+  
+<a href="https://bot-hosting.net/?aff=1259151615210819614"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Scalingo Deploy" width="150"></a>
+</details
+
+
+
+## License
+
+The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+___
