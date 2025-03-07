@@ -118,7 +118,7 @@ ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie:
         categorizedCommands[category].push(command.nomCom);
     });
 
-    moment.tz.setDefault("Africa/Dar Es Salam");
+    moment.tz.setDefault("Pakistan/Islamabad");
     const currentTime = moment();
     const formattedTime = currentTime.format("HH:mm:ss");
     const formattedDate = currentTime.format("DD/MM/YYYY");
