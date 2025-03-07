@@ -34,21 +34,15 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-━━━━❍ *FREDIE/TOFAN TECH INFO* ❍━━━━
+━━━━❍ *TOFAN MODS INFO* ❍━━━━
 ╭──━━━━━━━━━━━━━━━━━━━❍ 
 │
 │  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A
 │  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/LpepYelZ3MuBuR0I2qm5kf
 │  _*WhatsApp Contact As*_ ;Https://wa.me/923079749129 
 │  _*WhatsApp Bot Fork And Star*_ ;https://github.com/Qadeer-bhai/TOFAN-MD
-│  _*Telegram Group*_ ;https://t.me/+u3zlb5y6OfxhOTdk
-│  _*Telegram Channel*_ ;https://t.me/FredieTech_BusinessPlace
-│  _*Telegram Bot*_ ;Https://t.me/@fredidurry_bot
-│  _*Telegram Contact As*_ ; t.me/freditech 
-│  _*Instagram*_ ;https://www.instagram.com/fredi.simba.tz
-│  _*Facebook*_ ;https://www.facebook.com/profile.php?id=61553209932337
 │  _*YouTube Channel Subscribe For Tutorial*_ ;https://www.youtube.com/@tofanmods7
-│  _*Follow My Github For About Info*_ ;https://github.com/Fred1e
+│  _*Follow My Github For About Info*_ ;https://github.com/Qadeer-bhai
 │
 ╰──━━━━━━━━━━━━━━━━━━━❍ 
 ╭──━━━━━━━━━━━━━━━──➳❍ 
@@ -88,10 +82,10 @@ let menuMsg = `
 ┃⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣴⣿⣿⣿⠗⠄⠄⣿
 ┃⠈⠻⣿⣿⣿⣿⣿⣿⠿⠛⣉⣤⣾⣿⣿⣿⣿⣇⠠⠺⣷⣿
 ┃⣦⣄⣈⣉⣉⣉⣡⣤⣶⣿⣿⣿⣿⣿⣿⣿⠉⠁⣀⣼⣿⣿
-│        *TOFAN MD V7*
+│        *TOFAN MD V7(Working)*
 ╰─━━━━✣•∞•✣━━━━──❍ 
 
-> ©Fredie projects
+> ©Qadeer Hacker
 
  `;
 
