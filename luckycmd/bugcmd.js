@@ -173,7 +173,7 @@ ${timewisher(time)}
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+                                        "https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
@@ -211,12 +211,12 @@ ezra(
                 title: "bx.pdf",
                 pageCount: 9999999999,
                 thumbnail: {
-                    url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                    url: "https://qu.ax/lbXKZ.jpg"
                 },
                 thumbnailUrl:
-                    "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg",
+                    "https://qu.ax/lbXKZ.jpg",
                 jpegThumbnail: {
-                    url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                    url: "https://qu.ax/lbXKZ.jpg"
                 },
                 mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
                 fileName:
@@ -314,12 +314,12 @@ ezra(
             title: "bx.pdf",
             pageCount: 9999999999,
             thumbnail: {
-                url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                url: "https://qu.ax/lbXKZ.jpg"
             },
             thumbnailUrl:
-                "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg",
+                "https://qu.ax/lbXKZ.jpg",
             jpegThumbnail: {
-                url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                url: "https://qu.ax/lbXKZ.jpg"
             },
             mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
             fileName:
