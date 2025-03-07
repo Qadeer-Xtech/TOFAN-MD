@@ -59,7 +59,7 @@ ezra({
     'text': "Hello 👋\n\nClick on the button below to contact the OFFICIAL *TOFAN-MD* Owner",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https:// wa.me/255752593977',
+        'sourceUrl': 'https:// wa.me/923079749129',
         'mediaType': 0x1,
         'mediaUrl': "https://qu.ax/LpUWv.jpg",
         'title': "Join Our Developer Place",
@@ -80,7 +80,7 @@ ezra({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* Facebook Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.facebook.com/profile.php?id=61553209932337',
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A',
         'mediaType': 0x1,
         'mediaUrl': "https://qu.ax/LpUWv.jpg",
         'title': "Follow Facebook Page 📄",
@@ -101,7 +101,7 @@ ezra({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* Instagram Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.instagram.com/fredi.simba.tz',
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A',
         'mediaType': 0x1,
         'mediaUrl': "https://qu.ax/LpUWv.jpg",
         'title': "Follow Instagram Page 📄",
@@ -122,7 +122,7 @@ ezra({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* Threads Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.threads.net/@fredi.simba.tz',
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A',
         'mediaType': 0x1,
         'mediaUrl': "https://qu.ax/LpUWv.jpg",
         'title': "Follow Threads Page 📄",
@@ -143,7 +143,7 @@ ezra({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.tiktok.com/@opkulachi1.6',
+        'sourceUrl': 'https://www.tiktok.com/@op_kulachi1.6',
         'mediaType': 0x1,
         'mediaUrl': "https://qu.ax/LpUWv.jpg",
         'title': "Follow TikTok Page 📄",
