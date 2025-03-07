@@ -28,10 +28,10 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "LUCKY MD",
+        title: "TOFAN MD",
         body: "Pambe Kwa, Frediezra",
-        thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+        thumbnailUrl: "https://qu.ax/LpUWv.jpg",
+        sourceUrl: "https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
