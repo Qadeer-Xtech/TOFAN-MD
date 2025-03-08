@@ -27,7 +27,7 @@ ezra({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions)
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Asia/Pakistan);
+    moment.tz.setDefault("Asia/Pakistan");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
