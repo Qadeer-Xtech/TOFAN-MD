@@ -27,9 +27,9 @@ ezra({ nomCom: "problem", categorie: "My Contact" }, async (dest, zk, commandeOp
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Asia/Pakistan);
+    moment.tz.setDefault("Asia/Islamabad");
 
-// Créer une date et une heure en GMT
+// Créer une date et une heure en PKT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
