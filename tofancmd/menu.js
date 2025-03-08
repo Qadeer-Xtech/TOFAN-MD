@@ -118,7 +118,7 @@ ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie:
         categorizedCommands[category].push(command.nomCom);
     });
 
-    moment.tz.setDefault("Asia/Pakistan");
+    moment.tz.setDefault("Asia/Islamabad");
     const currentTime = moment();
     const formattedTime = currentTime.format("HH:mm:ss");
     const formattedDate = currentTime.format("DD/MM/YYYY");
@@ -145,7 +145,7 @@ ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie:
 ┣◆ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
 ┣◆ *ᴅᴀᴛᴇ:* ${formattedDate}
 ┣◆ *ᴍᴏᴅᴇ:* ${mode}
-┣◆ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Not/Set
+┣◆ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Auto
 ┣◆ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
 ┣◆ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┣◆ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
