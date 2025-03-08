@@ -133,7 +133,7 @@ FORWARD COMMAND ADDED you share a message to all members in the group automatic 
 
 </details>
 
-***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴀɴᴅ ɪʙʀᴀʜɪᴍ***
+***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ Qadeer Khan***
 
 
 
