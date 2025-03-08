@@ -25,7 +25,7 @@ ezra({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) =
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault('Etc/GMT');
+    moment.tz.setDefault('Etc/PKT');
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
