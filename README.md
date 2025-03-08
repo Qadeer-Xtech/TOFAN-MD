@@ -148,10 +148,3 @@ FORWARD COMMAND ADDED you share a message to all members in the group automatic 
 <a href="https://bot-hosting.net/?aff=1259151615210819614"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Scalingo Deploy" width="150"></a>
 </details
 
-
-
-## License
-
-The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-___
