@@ -4,7 +4,7 @@ ezra({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "hacker yesser");
+        repondre("*__Exemple : * " + prefixe + "hacker QADEER");
         return;
     }
     try {
