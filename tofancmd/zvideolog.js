@@ -1,4 +1,4 @@
-// What are you doing mothe fucker 🖕 find codes to another bot
+// What are you doing Brother? find codes to another bot
 // Non visible script 
 // Prepare yourself men don't disturb others
 
@@ -29,7 +29,7 @@ D ☞ tiger 🐯 video logo
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
         title: "TOFAN MD",
-        body: "Pambe Kwa, Frediezra",
+        body: "Pambe Kwa, Qadeer",
         thumbnailUrl: "https://qu.ax/LpUWv.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A",
         mediaType: 1,
