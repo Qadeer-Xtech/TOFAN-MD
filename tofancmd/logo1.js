@@ -71,7 +71,7 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
         title: "🍂 𝐓𝐎𝐅𝐀𝐍-𝚳𝐃 🤦",
-        body: "Regards, Frediezra",
+        body: "Regards, Qadeer",
         thumbnailUrl: "https://qu.ax/LpUWv.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A",
         mediaType: 1,
