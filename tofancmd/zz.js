@@ -98,7 +98,7 @@ ezra({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Qadeer-bhai/TOFAN-MD
 
-> regards frediezra`,
+> regards Qadeer`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -122,7 +122,7 @@ ezra({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Qadeer-bhai/TOFAN-MD
 
-> regards frediezra`,
+> regards Qadeer`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -146,7 +146,7 @@ ezra({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Qadeer-bhai/TOFAN-MD
 
-> regards frediezra`,
+> regards Qadeer`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -247,7 +247,7 @@ ezra({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Qadeer-bhai/TOFAN-MD
 
-> regards frediezra`,
+> regards Qadeer`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -271,7 +271,7 @@ ezra({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Qadeer-bhai/TOFAN-MD
 
-> regards frediezra`,
+> regards Qadeer`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
