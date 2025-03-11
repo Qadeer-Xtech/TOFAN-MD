@@ -18,8 +18,9 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ___
-
-![logo](https://qu.ax/BGGRn.jpg)
+<p align="center"
+   
+![logo](https://qu.ax/NfJZk.jpg)
 
 ---
 <a href="https://git.io/typing-svg">
