@@ -55,10 +55,6 @@ let infoMsg =  `
 │☆ bomgcbug <grouplink>
 │☆ unlimitedgcbug <grouplink>
 │☆ docugcbug <grouplink>
-│
-│✺ *NEW COMANDS ADDED* ✺
-│☆jambug 92XXXX
-│☆freeze 92XXXX
 ╰─────────────────────❍ 
 
 ╭────────────────────⊷
