@@ -48,15 +48,6 @@ let infoMsg =  `
 │☆ unlimitedbug 92XXXX
 │☆ bombug 92XXXX
 │☆ lagbug 92XXXX
-│☆pkbug 923XXXX
-│☆npbug 923XXXX
-│☆ gcbug <grouplink>
-│☆ delaygcbug <grouplink>
-│☆ trollygcbug <grouplink>
-│☆ laggcbug <grouplink>
-│☆ bomgcbug <grouplink>
-│☆ unlimitedgcbug <grouplink>
-│☆ docugcbug <grouplink>
 ╰─────────────────────❍ 
 
 ╭────────────────────⊷
