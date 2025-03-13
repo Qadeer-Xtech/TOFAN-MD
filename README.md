@@ -100,11 +100,12 @@ ___
 #### DEPLOY TO HEROKU 
 1. `If You Don't Have An Account On Heroku`
 
-- <a align="center"><a href="https://signup.heroku.com">
+
+<a align="center"><a href="https://signup.heroku.com">
  <img src="https://img.shields.io/badge/Create%20Account%20Now-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 2. `If You Have a Heroku Account`
-3. 
-  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Qadeer-bhai/TOFAN-MD"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Qadeer-bhai/TOFAN-MD"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
