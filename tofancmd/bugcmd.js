@@ -16,6 +16,8 @@ const { bugtext3 } = require("../fredi/fredi/bugtext3");
 const { bugtext4 } = require("../fredi/fredi/bugtext4");
 const { bugtext5 } = require("../fredi/fredi/bugtext5");
 const { bugtext6 } = require("../fredi/fredi/bugtext6");
+const { bugtext1 } = require("../fredi/fredi/rishitext15");
+const { bugtext1 } = require("../fredi/fredi/rishitext16");
 const { bugpdf } = require("../fredi/fredi/bugpdf.js");
 
 const category = "Bug-cmds";
