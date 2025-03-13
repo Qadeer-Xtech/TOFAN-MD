@@ -87,14 +87,9 @@ ___
 
 
 #### DEPLOY TO HEROKU 
-1. `If You Don't Have An Account On Heroku`
 
+<a href="https://signup.heroku.com"><img title="CREAT-HEROKU ACCOUNT" src="https://img.shields.io/badge/CREAT-HEROKU ACCOUNT-h?color=blue&style=for-the-badge&logo=nike" width="220" height="38.45"/></a></p>
 
-<a align="center"><a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-2. `If You Have a Heroku Account`
-
-<a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Qadeer-bhai/TOFAN-MD"> <img src="https://img.shields.io/badge/DEPLOY%20ON%20HEROKU-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Qadeer-bhai/TOFAN-MD"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=blue&style=for-the-badge&logo=nike" width="220" height="38.45"/></a></p>
 
 
