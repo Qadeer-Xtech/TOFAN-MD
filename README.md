@@ -75,11 +75,11 @@ ___
 
 **How to deploy ?**
 
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=🙏+𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢+⤵️)](https://git.io/typing-svg)
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢+⤵️)](https://git.io/typing-svg)
 
 *_Click the button below to fork repositery:_*
 
-  <a href="https://github.com/Qadeer-bhai/TOFAN-MD/fork"><img title="TOFAN-D" src="https://img.shields.io/badge/FORK-TOFAN-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Qadeer-bhai/TOFAN-MD/fork"><img title="TOFAN" src="https://img.shields.io/badge/FORK-TOFAN-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 
 **How to get Session ID ?**
