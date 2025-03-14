@@ -146,7 +146,7 @@ ezra( {
 
     *Messages :* ${rank.messages}
     
-   ┕━✿━┑ FredieTech ┍━✿━┙`
+   ┕━✿━┑ Qadeer Khan ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -222,7 +222,7 @@ ezra( {
 
   *Messages :* ${rang.messages}
 
-   ┕━✿━┑ FredieTech ┍━✿━┙`
+   ┕━✿━┑ Qadeer Khan ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
