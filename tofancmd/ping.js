@@ -14,7 +14,7 @@ const conf = require('../set');
 
 ezra(
   {
-    nomCom: 'ping',
+    nomCom: 'ping1',
     categorie: 'General',
     reaction: '🚀',
     alias: ['p']
