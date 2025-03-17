@@ -1,4 +1,4 @@
-
+/*
 const {ezra } = require("../fredi/ezra");
 const axios = require('axios');
 const cheerio = require('cheerio');
@@ -186,3 +186,5 @@ async function hentai() {
       })	
   })	
              }
+
+*/
