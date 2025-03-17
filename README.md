@@ -54,7 +54,7 @@ ___
 <p align="center"><img src="https://profile-counter.glitch.me/{TOFAN-MD}/count.svg" alt="Qadeer-bhai :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Qadeer-bhai}/count.svg" /></p>
 <p align="center">
 <a href="https://github.com/Qadeer-bhai/TOFAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=TOFAN-MD&label=VIEWS&style=flat-square&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=Qadeer-bhai&label=VIEWS&style=flat-square&color=blue" />
 </a>
 
 ___
