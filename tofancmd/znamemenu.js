@@ -1,3 +1,8 @@
+//Owner and Developer= Qadeer
+//For More detail Please Contact me on WhatsApp
+//Qadeer = 923079749129
+
+
 const util = require('util');
 const fs = require('fs-extra');
 const { ezra } = require(__dirname + "/../fredi/ezra");
@@ -37,8 +42,6 @@ let infoMsg =  `
 
 🤲🕌  ┈• *99 NAMES OF ALLAH* •┈  🕌🤲
 
- 💫 𝘈𝘭𝘭 names 𝘢𝘯𝘥 𝘵𝘩𝘦𝘪𝘳 𝘯𝘶𝘮𝘣𝘦𝘳𝘴 𝘭𝘪𝘴𝘵
-𝘧𝘰𝘳 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 name 𝘵𝘺𝘱𝘦 ${s.PREFIXE}allah 57 OR ${s.PREFIXE}name 57 💫🌸 
 
 1. Ar-Rahman (الرَّحْمٰنُ) - بے حد مہربان
 
@@ -341,6 +344,8 @@ let menuMsg = `
 > *POWERED BY TOFAN MD*
 
 > ©Qadeer
+
+> This Menu is Developed by Only Qadeer and i am owner of this menu☺
 
  `;
 
