@@ -26,7 +26,7 @@ console.log(url);
 ) ;
 
 ezra( {
-  nomCom : "itta",
+  nomCom : "tta",
  categorie : "tts",
   reaction : "💚" },
       async(dest,zk, commandeOptions)=> {
