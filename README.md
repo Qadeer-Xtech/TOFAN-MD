@@ -30,11 +30,6 @@ ___
 
 ___
 
-<p align="center"> 
-  <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Shade&size=25&pause=1000&background=FF000000&width=435&lines=THIS+IS+TOFAN+MD ❤️+;TOFAN-+MD 🎉;CREATED+𝗕Y+QADEER-KHAN ✔️" alt="Typing SVG" /></a>
-  </p>
-
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▇+▇+▇+▇+▇+▇+▇)](https://git.io/typing-svg)
