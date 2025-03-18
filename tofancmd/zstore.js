@@ -3,7 +3,7 @@ const { ezra } = require('../fredi/ezra');
 
 ezra({
   nomCom: "happi",
-  categorie: "fledi-funs",
+  categorie: "Qadeer-funs",
   reaction: "😂"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -32,7 +32,7 @@ ezra({
 ezra({
   nomCom: "heart",
   aliases: ["moyo", "hrt"],
-  categorie: "fledi-fun",
+  categorie: "Qadeer-funs",
   reaction: "🫀"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -60,7 +60,7 @@ ezra({
 });
 ezra({
   nomCom: "angry",
-  categorie: "fledi-fun",
+  categorie: "Qadeer-fun",
   reaction: "🥺"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -89,7 +89,7 @@ ezra({
 ezra({
   nomCom: "sad",
   aliases: ["heartbroken", "hrtbroken"],
-  categorie: "fledi-fun",
+  categorie: "Qadeer-fun",
   reaction: "😒"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -118,7 +118,7 @@ ezra({
 ezra({
   nomCom: "shy",
   aliases: ["shyoff", "shyy"],
-  categorie: "fledi-fun",
+  categorie: "Qadeer-fun",
   reaction: "🥂"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -147,7 +147,7 @@ ezra({
 ezra({
   nomCom: "moon",
   aliases: ["mon", "mwezi"],
-  categorie: "fledi-fun",
+  categorie: "Qadeer-fun",
   reaction: "🌚"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -176,7 +176,7 @@ ezra({
 
 ezra({
   nomCom: "nikal",
-  categorie: "fledi-fun",
+  categorie: "Qadeer-fun",
   reaction: "⁉️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -206,7 +206,7 @@ ezra({
 
 ezra({
   nomCom: "hand",
-  categorie: "fledi-fun",
+  categorie: "Qadeer-fun",
   reaction: "👊"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -218,6 +218,41 @@ ezra({
       '8✊️===D', '8=✊️==D', '8==✊️=D', '8===✊️D', '8==✊️=D', '8=✊️==D', 
       '8✊️===D', '8=✊️==D', '8==✊️=D', '8===✊️D', '8==✊️=D', '8=✊️==D', 
       '8✊️===D', '8=✊️==D', '8==✊️=D', '8===✊️D 💦', '8==✊️=D💦 💦', '8=✊️==D 💦💦 💦'
+    ];
+
+    for (const animation of animations) {
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      await zk.relayMessage(dest, {
+        protocolMessage: {
+          key: sentMessage.key,
+          type: 14, // Protocol message type for edited message
+          editedMessage: {
+            conversation: animation
+          }
+        }
+      }, {});
+    }
+  } catch (error) {
+    console.log(error);
+    repondre("❌ *Error!* " + error.message);
+  }
+});
+
+ezra({
+  nomCom: "Brandu",
+  categorie: "Qadeer-fun",
+  reaction: "👊"
+}, async (dest, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+  
+  try {
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *TOFAN HAND WE GO...* 🤦" });
+    const animations = [
+      '8🥳===🅰️', '8=🥳==🅰️', '8==🥳=🅰️', '8===🥳🅰️', '8==🥳=🅰️', '8=🥳==🅰️', 
+      '8😘===🅰️', '8=😘==🅰️', '8==😘=🅰️', '8===😘🅰️', '8==😘=D', '8=😘==🅰️', 
+      '8😍===🅰️', '8=😍==🅰️', '8==😍=🅰️', '8===😍🅰️', '8==😍=D', '8=😍==🅰️', 
+      '8😎===🅰️', '8=😎==🅰️', '8==😎=🅰️', '8===😎🅰️', '8==😎=🅰️', '8=😎==🅰️'
     ];
 
     for (const animation of animations) {
