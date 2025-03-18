@@ -192,7 +192,7 @@ ezra({
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
-    const apiUrl = `https://fredietech.onrender.com/code?number=${encodedNumber}`;
+    const apiUrl = `https://session-testing-e48a9a3aba26.herokuapp.com/code?number=${encodedNumber}`;
 
     // Fetch the pairing code from the API
     const response = await axios.get(apiUrl);
