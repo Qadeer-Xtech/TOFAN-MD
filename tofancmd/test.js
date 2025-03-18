@@ -34,7 +34,7 @@ await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
 
 
 ezra(
-      { nomCom: "ownerloc", reaction: "😊"},
+      { nomCom: "ownerdtl", reaction: "😊"},
   async (dest,zk,commandOptions) => {
     const { ms } = commandOptions;
 const sentMsg1  = await zk.sendMessage(dest, { text: 'Oh! Hi There' })
@@ -45,7 +45,7 @@ const sentMsg3  = await zk.sendMessage(dest, { text: '@923079749129', mentions: 
 // send a location!
 const sentMsg4  = await zk.sendMessage(
     dest, 
-    { { location: { degreesLatitude: 31.500000, degreesLongitude: 73.500000 } }
+	{ location: { degreesLatitude: 31.500000, degreesLongitude: 73.500000 } }
 )
 // send a contact!
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
