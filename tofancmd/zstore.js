@@ -240,7 +240,7 @@ ezra({
 });
 
 ezra({
-  nomCom: "Brandu",
+  nomCom: "brandu",
   categorie: "Qadeer-fun",
   reaction: "❣️"
 }, async (dest, zk, commandeOptions) => {
