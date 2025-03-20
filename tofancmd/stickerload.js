@@ -16,7 +16,7 @@ async (dest, zk, commandeOptions) => {
   }
 
   const gifSearchTerm = arg.join(" ");
-  const tenorApiKey = "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c"; // Remplacez par votre clé d'API Tenor
+  const tenorApiKey = "AIzaSyAu4cK5DqgBS8aq9hCHP_BoH6f2v_6UZY0"; // Remplacez par votre clé d'API Tenor
 
   try { for ( i = 0 ; i < 5 ; i++) {
     const gif = await axios.get(
