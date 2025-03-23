@@ -46,7 +46,7 @@ ezra({
   }
 
   const { title, artist, thumb, lyrics } = lyricsData.result;
-  const imageUrl = thumb || "https://files.catbox.moe/b2vql7.jpg";
+  const imageUrl = thumb || "https://qu.ax/NfJZk.jpg";
 
   const caption = `**Title**: ${title}\n**Artist**: ${artist}\n\n${lyrics}`;
 
