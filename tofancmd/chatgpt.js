@@ -1,8 +1,10 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require("axios");
 
+const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"; // یہاں اپنی نئی محفوظ API Key ڈالیں
+
 ezra({ nomCom: "gpt5", reaction: "🌐", categorie: "QADEER NEW AI" }, async (dest, zk, commandeOptions) => {
-    const { repondre, arg, ms } = commandeOptions;
+    const { repondre, arg } = commandeOptions;
 
     try {
         if (!arg || arg.length === 0) {
@@ -11,13 +13,24 @@ ezra({ nomCom: "gpt5", reaction: "🌐", categorie: "QADEER NEW AI" }, async (de
 
         const question = arg.join(' ');
 
-        const responseApi = await axios.get(`https://test-api-apms.onrender.com/api/chatgpt?text=${encodeURIComponent(question)}&name=Kaizoku&prompt=${encodeURIComponent("Tu seras une IA d'un bot WhatsApp tres puissant du nom ✧⁠TOFAN-MD✧")}&apikey=BrunoSobrino`, {
-            timeout: 5000 // زیادہ سے زیادہ 5 سیکنڈ میں جواب دے
-        });
+        const responseApi = await axios.post(
+            "https://api.openai.com/v1/chat/completions",
+            {
+                model: "gpt-3.5-turbo", // آپ چاہیں تو "gpt-4" بھی استعمال کر سکتے ہیں
+                messages: [{ role: "user", content: question }],
+                temperature: 0.7
+            },
+            {
+                headers: {
+                    "Authorization": `Bearer ${OPENAI_API_KEY}`,
+                    "Content-Type": "application/json"
+                }
+            }
+        );
 
         const resultat = responseApi.data;
-        if (resultat) {
-            repondre(resultat.resultado);
+        if (resultat && resultat.choices && resultat.choices[0].message.content) {
+            repondre(resultat.choices[0].message.content);
         } else {
             repondre("جواب حاصل کرنے میں مسئلہ ہوا۔");
         }
@@ -26,4 +39,3 @@ ezra({ nomCom: "gpt5", reaction: "🌐", categorie: "QADEER NEW AI" }, async (de
         repondre("معذرت، کچھ غلط ہو گیا ہے۔ براہ کرم دوبارہ کوشش کریں۔");
     }
 });
-
