@@ -1,7 +1,7 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require("axios");
 
-const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"; // یہاں اپنی نئی محفوظ API Key ڈالیں
+const OPENAI_API_KEY = "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"; // یہاں اپنی نئی محفوظ API Key ڈالیں
 
 ezra({ nomCom: "gpt5", reaction: "🌐", categorie: "QADEER NEW AI" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg } = commandeOptions;
