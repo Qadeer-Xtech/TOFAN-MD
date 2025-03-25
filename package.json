@@ -18,7 +18,7 @@
     "Tofan-Md",
     "whatsapp",
     "whatsapp-bot",
-    "frediezra"
+    "qadeertofan"
    ],
   "author": "qadeer",
 "license": "ISC",
@@ -120,8 +120,8 @@
     "openai": "^3.3.0",
     "os": "^0.1.2",
     "pastebin-js": "^1.0.6",
-    "pdfkit": "^0.13.0", 
-    "pg": "^8.11.2",
+    "pdfkit": "^0.16.0", 
+    "pg": "^8.14.1",
     "pino": "^8.15.0",
     "pino-pretty": "^7.5.1",
     "play-dl": "^1.9.7",
@@ -143,7 +143,7 @@
     "url": "^0.11.4",
     "url-regex-safe": "^3.0.0",
     "undici": "^6.19.4",
-    "uuid": "^9.0.1",
+    "uuid": "^11.1.0",
     "translatte": "^3.0.1",
     "types": "^0.1.1",
     "typescript": "^5.1.6",
