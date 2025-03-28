@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
-ezra({ nomCom: "quran-menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "quran-menu", categorie: "A-Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../fredi//ezra");
     var coms = {};
