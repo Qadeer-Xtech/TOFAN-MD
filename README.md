@@ -1,3 +1,6 @@
+***Qadeer Khan***
+
+
 <p align='center'>
     </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
@@ -14,6 +17,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ___
+
 <p align="center"
    
 ![logo](https://qu.ax/NfJZk.jpg)
