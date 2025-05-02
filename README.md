@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="">
-    <img alt=Support height="100" src="https://telegra.ph/file/ecadcb172a2477f8c87bf.jpg"> 
-
-
 <p align='center'>
     </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
