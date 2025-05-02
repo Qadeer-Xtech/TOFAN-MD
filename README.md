@@ -3,8 +3,6 @@
     <img alt=Support height="100" src="https://telegra.ph/file/ecadcb172a2477f8c87bf.jpg"> 
 
 
-
-
 <p align='center'>
     </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
@@ -12,7 +10,6 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=1BAFBAFF&center=true&width=1000&height=200&lines=TOFAN-+MD+BOT;Qadeer+Khan" alt="Typing SVG" /></a>
   </p>
-
 
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=hello👋+friend+welcome✊;🫂KEEP+USING+TOFAN+MD" alt="Typing SVG" /></a>
