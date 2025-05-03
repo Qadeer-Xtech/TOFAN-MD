@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:FF0000&height=180&section=header&text=QADEER'S%20TOFAN%20BOT&fontSize=38&fontColor=FFCOCB&fontFamily=Roboto&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:FF0000&height=240&section=header&text=QADEER'S%20TOFAN%20BOT&fontSize=38&fontColor=FFCOCB&fontFamily=Roboto&animation=twinkling" width="100%"/>
 
 
 
