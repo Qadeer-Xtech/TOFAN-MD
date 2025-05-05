@@ -4,5 +4,5 @@ build:
     worker: Dockerfile
 
 run:
-  web: node server.js
+  web: npm run web
   worker: npm run ezra
