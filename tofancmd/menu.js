@@ -103,7 +103,7 @@ const getRandomQuote = () => {
     return quotes[randomIndex];
 };
 
-ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "system" }, async (message, client, config) => {
+ezra({ nomCom: "menu2", aliases: ["liste", "helplist", "commandlist"], categorie: "system" }, async (message, client, config) => {
     const { ms, respond, prefix, nomAuteurMessage } = config;
     const commands = require(__dirname + "/../fredi/ezra").cm;
     const categorizedCommands = {};
