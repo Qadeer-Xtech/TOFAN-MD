@@ -1,8 +1,5 @@
 build:
   docker:
-    web: Dockerfile
-    worker: Dockerfile
-
+      worker: Dockerfile
 run:
-  web: npm run web
-  worker: npm run ezra
+   worker:   npm run ezra
