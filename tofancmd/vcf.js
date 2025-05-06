@@ -47,10 +47,6 @@ ezra({
         fileName: `${appDetails.BK9.name}.apk`,
         mimetype: "application/vnd.android.package-archive",
         caption: "✧⁠TOFAN-MD✧"
-    *Size:* ${details.size}
-    *Version:* ${details.version}
-    *Updated:* ${details.updated}
-    *Package:* ${details.packagename}
       },
       { quoted: ms }
     );
