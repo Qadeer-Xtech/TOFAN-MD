@@ -94,10 +94,7 @@ ___
 ## 🔗 Essential Links  
 
 - **Official Channel**  
-  [![Join Channel](https://img.shields.io/badge/Join%20Channel-**Click%20Here**-brightgreen?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19)
-
-- **Support Group**  
-  [![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-**Click%20Here**-brightblue?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI)
+  [![Join Channel](https://img.shields.io/badge/Join%20Channel-**Click%20Here**-brightgreen?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A)
 
 - **Developer Contact**  
   [![WhatsApp](https://img.shields.io/badge/Contact%20Developer-**Click%20Here**-brightgreen?logo=whatsapp&style=for-the-badge&logoColor=white)](https://api.whatsapp.com/send?phone=923079749129)
