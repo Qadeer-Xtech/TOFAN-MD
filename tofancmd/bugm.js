@@ -27,7 +27,7 @@ ezra({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions)
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Asia/Islamabad");
+    moment.tz.setDefault("Asia/Karachi");
 
 // Créer une date et une heure en PKT
 const temps = moment().format('HH:mm:ss');
@@ -37,7 +37,6 @@ let infoMsg =  `
 ━━━━✺ *𝕋𝕆𝔽𝔸ℕ 𝕄𝔻 ℂℝ𝔸𝕊ℍ𝔼ℝ* ✺━━━━
 ╭─────────────────────❍ 
 │☆ bug
-│☆ crash
 │☆ loccrash
 │☆ amountbug <amount>
 │☆ crashbug 92XXXX
