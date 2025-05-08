@@ -192,7 +192,7 @@ ezra({
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
-    const apiUrl = `https://session-testing-e48a9a3aba26.herokuapp.com/code?number=${encodedNumber}`;
+    const apiUrl = `https://mysession-test-95cc1998de31.herokuapp.com/code?number=${encodedNumber}`;
 
     // Fetch the pairing code from the API
     const response = await axios.get(apiUrl);
@@ -438,41 +438,3 @@ You can use this email for temporary purposes. I will notify you if you receive 
     }, { quoted: messageQuote });
   }
 });
-ezra({
-  nomCom: "wikipedia",
-  aliases: ["wiki", "wikipeda"],
-  reaction: '🤡',
-  categorie: "new"
-}, async (zk, dest, context) => {
-  const { repondre, arg, ms } = context;
-
-  // Ensure that the search term is provided
-  const text = arg.join(" ").trim(); 
-
-  try {
-    if (!text) return repondre(`Provide the term to search,\nE.g What is JavaScript!`);
-    
-    // Fetch summary from Wikipedia
-    const con = await wiki.summary(text);
-    
-    // Format the reply message
-    const texa = `
-*📚 Wikipedia Summary 📚*
-
-🔍 *Title*: _${con.title}_
-
-📝 *Description*: _${con.description}_
-
-💬 *Summary*: _${con.extract}_
-
-🔗 *URL*: ${con.content_urls.mobile.page}
-
-> Powered by TOFAN Md
-    `;
-    repondre(texa);
-  } catch (err) {
-    console.error(err);
-    repondre(`Got 404. I did not find anything!`);
-  }
-});
-
