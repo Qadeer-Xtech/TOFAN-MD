@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://qu.ax/NfJZk.jpg",
+  "logo": "https://qu.ax/CAJVF.png",
   "repository": "https://github.com/Qadeer-bhai/TOFAN-MD",
   "success_url": "https://qadeer-bhai.github.io/BotWorking/",
   "stack": "container",
@@ -106,7 +106,7 @@
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://qu.ax/NfJZk.jpg",
+      "value": "https://qu.ax/CAJVF.png",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
