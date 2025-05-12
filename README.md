@@ -1,3 +1,7 @@
+***This project, TOFAN-MD, is based on the LUCKY_BD repository. I have taken proper permission from the original developer (LuckyMd) before using and modifying their code. I respect the efforts of the original author and have not copied or reused the project without authorization. This version includes changes and improvements tailored to my own requirements while giving full credit to the original creator.***
+
+
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:FF0000&height=240&section=header&text=QADEER'S%20TOFAN%20BOT&fontSize=38&fontColor=FFCOCB&fontFamily=Roboto&animation=twinkling" width="100%"/>
 
 
