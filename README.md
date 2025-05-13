@@ -1,4 +1,4 @@
-***This project, TOFAN-MD, is based on the LUCKY_BD repository. I have taken proper permission from the original developer (LuckyMd) before using and modifying their code. I respect the efforts of the original author and have not copied or reused the project without authorization. This version includes changes and improvements tailored to my own requirements while giving full credit to the original creator.***
+***This project, TOFAN-MD, is based on the LUCKY_MD repository. I have taken proper permission from the original developer (LuckyMd) before using and modifying their code. I respect the efforts of the original author and have not copied or reused the project without authorization. This version includes changes and improvements tailored to my own requirements while giving full credit to the original creator.***
 
 
 
