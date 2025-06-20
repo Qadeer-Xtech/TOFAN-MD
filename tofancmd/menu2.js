@@ -57,6 +57,13 @@ ezra({ nomCom: "menu", categorie: "A-Menu" }, async (dest, zk, commandeOptions) 
             text: infoMsg + menuMsg,
             contextInfo: {
                 mentionedJid: [senderName],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363345872435489@newsletter', // ← اپنے چینل کا ID یہاں لگائیں
+                    newsletterName: s.BOT_NAME || "TOFAN-MD",
+                    serverMessageId: 143
+                },
                 externalAdReply: {
                     title: "TOFAN-MD | AI Based Assistant",
                     body: "Click here to explore more commands!",
