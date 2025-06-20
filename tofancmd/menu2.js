@@ -9,18 +9,38 @@ const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
 
 ezra({ nomCom: "menu", categorie: "A-Menu" }, async (dest, zk, commandeOptions) => {
-    let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
+    let { ms, repondre, prefixe, nomAuteurMessage, arg } = commandeOptions;
     let { cm } = require(__dirname + "/../fredi/ezra");
     let coms = {};
-    let mode = (s.MODE.toLowerCase() === "yes") ? "🌐 Public" : "🔒 Private";
+    let categories = [];
 
+    // Group commands by category
     cm.map((com) => {
         if (!coms[com.categorie]) {
             coms[com.categorie] = [];
+            categories.push(com.categorie);
         }
         coms[com.categorie].push(com.nomCom);
     });
 
+    // Reply with category commands if number is sent
+    if (arg && arg[0] && !isNaN(arg[0])) {
+        const index = parseInt(arg[0]) - 1;
+        const selectedCat = categories[index];
+
+        if (!selectedCat) return repondre("❌ Invalid category number.");
+
+        let replyMsg = `📂 *${selectedCat.toUpperCase()} Commands*\n\n`;
+
+        coms[selectedCat].forEach(cmd => {
+            replyMsg += `- ${prefixe}${cmd}\n`;
+        });
+
+        return repondre(replyMsg.trim());
+    }
+
+    // Default: Show categories only
+    let mode = (s.MODE.toLowerCase() === "yes") ? "🌐 Public" : "🔒 Private";
     moment.tz.setDefault('Asia/Karachi');
     const temps = moment().format('hh:mm A');
     const date = moment().format('dddd, MMMM Do YYYY');
@@ -39,17 +59,11 @@ ezra({ nomCom: "menu", categorie: "A-Menu" }, async (dest, zk, commandeOptions) 
 ╰──────────────────────────────╯${readmore}
 `;
 
-    let menuMsg = `\n╭───────〔 *📚 COMMAND CATEGORIES* 〕───────╮\n`;
-
-    for (const cat in coms) {
-        menuMsg += `│\n│ 📂 *${cat.toUpperCase()}*\n│`;
-        for (const cmd of coms[cat]) {
-            menuMsg += `\n│ ├─ ⚡ ${s.PREFIXE}${cmd}`;
-        }
-        menuMsg += `\n│ └──────────────────────────────`;
-    }
-
-    menuMsg += `\n╰───〔 🔧 *Powered by TOFAN-MD* 🔧 〕───╯`;
+    let menuMsg = `\n╭──────〔 *📚 COMMAND CATEGORIES* 〕──────╮\n`;
+    categories.forEach((cat, index) => {
+        menuMsg += `│ ${index + 1}. ${cat}\n`;
+    });
+    menuMsg += `╰─ Reply with a number (e.g. 1) to view commands.\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;
@@ -68,7 +82,7 @@ ezra({ nomCom: "menu", categorie: "A-Menu" }, async (dest, zk, commandeOptions) 
             }
         });
     } catch (error) {
-        console.error("Menu2 error: ", error);
-        repondre("❌ Menu2 Error: " + error);
+        console.error("Menu error: ", error);
+        repondre("❌ Menu Error: " + error);
     }
 });
