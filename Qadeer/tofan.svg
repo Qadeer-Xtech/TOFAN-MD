@@ -51,7 +51,7 @@
 
     <!-- Laptop -->
     <rect x="130" y="0" width="80" height="50" fill="#111" stroke="#0ff" stroke-width="1.5" rx="5"/>
-    <text x="135" y="30" font-size="10" font-family="monospace" fill="#0f0">print("Hi")</text>
+    <text x="135" y="30" font-size="10" font-family="monospace" fill="#0f0">print("Hello")</text>
 
     <!-- Mug -->
     <rect x="40" y="50" width="10" height="15" rx="2" fill="#c33" />
