@@ -1,8 +1,8 @@
-***This project, TOFAN-MD, is based on the LUCKY_MD repository. I have taken proper permission from the original developer (LuckyMd) before using and modifying their code. I respect the efforts of the original author and have not copied or reused the project without authorization. This version includes changes and improvements tailored to my own requirements while giving full credit to the original creator.***
+***This project, TOFAN-MD, is based on the LUCKY_MD repository. I have taken proper permission from the original developer (LuckyMd) before using and modifying their code.***
 
 
 
-[![QADEER KHAN](https://raw.githubusercontent.com/Qadeer-bhai/TOFAN-MD/main/Qadeer/tofan.svg)](https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f)
+[![QADEER KHAN](https://raw.githubusercontent.com/Qadeer-bhai/TOFAN-MD/main/Qadeer/tofan.svg)](https://whatsapp.com/channel/0029VajWxSZ96H4SyQLurV1H)
 
 
 
@@ -18,12 +18,6 @@
 <p align='center'>
     </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
-___
-
-<p align="center"
-   
-![logo](https://qu.ax/NfJZk.jpg)
 
 ---
 <a href="https://git.io/typing-svg">
