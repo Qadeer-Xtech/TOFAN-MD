@@ -1,69 +1,82 @@
 <svg width="100%" height="100%" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Animated rainbow gradient -->
+    <!-- Rainbow animated gradient -->
     <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="red">
+      <stop offset="0%" stop-color="#ff0055">
         <animate attributeName="offset" values="0;1" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="25%" stop-color="orange">
+      <stop offset="25%" stop-color="#ffcc00">
         <animate attributeName="offset" values="0.25;0" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="yellow">
+      <stop offset="50%" stop-color="#00ff99">
         <animate attributeName="offset" values="0.5;1" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="75%" stop-color="green">
+      <stop offset="75%" stop-color="#00ccff">
         <animate attributeName="offset" values="0.75;0.25" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="blue">
+      <stop offset="100%" stop-color="#cc00ff">
         <animate attributeName="offset" values="1;0.5" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Text neon glow filter -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+    <!-- Neon glow filter -->
+    <filter id="neon" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
+        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Glass blur background -->
+    <filter id="glass" x="0" y="0" width="100%" height="100%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="100%" height="100%" fill="#000000"/>
+  <rect width="100%" height="100%" fill="#0a0a0a"/>
+
+  <!-- Animated border frame -->
+  <rect x="10" y="10" width="580" height="380" rx="20" stroke="url(#rainbow)" stroke-width="4" fill="transparent">
+    <animate attributeName="stroke-dasharray" values="20,10;10,20;20,10" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Glassy Box -->
+  <rect x="50" y="40" width="500" height="320" rx="20" fill="#1118" stroke="#fff2" stroke-width="1.5" filter="url(#glass)"/>
 
   <!-- Main Title -->
-  <text x="50%" y="60" text-anchor="middle" font-size="36" font-family="Verdana"
-        fill="url(#rainbow)" filter="url(#glow)">
+  <text x="50%" y="100" text-anchor="middle" font-size="40" font-family="Segoe UI, Verdana, sans-serif"
+        fill="url(#rainbow)" filter="url(#neon)">
     💻 TOFAN MD 🤖
   </text>
 
   <!-- Subtitle -->
-  <text x="50%" y="110" text-anchor="middle" font-size="20" font-family="Verdana"
-        fill="url(#rainbow)" filter="url(#glow)">
-    🛠️ MADE BY QADEER KHAN 🦟
+  <text x="50%" y="150" text-anchor="middle" font-size="20" font-family="Segoe UI, Verdana, sans-serif"
+        fill="url(#rainbow)" filter="url(#neon)">
+    🛠️ CREATED BY QADEER KHAN 🦟
   </text>
 
-  <!-- Desk + Person Coding -->
-  <g transform="translate(130, 160)">
+  <!-- Coding scene -->
+  <g transform="translate(130, 190)">
     <!-- Table -->
-    <rect x="0" y="60" width="340" height="20" fill="#222" rx="4" />
+    <rect x="0" y="60" width="340" height="20" fill="#1c1c1c" rx="6" />
 
     <!-- Laptop -->
-    <rect x="130" y="0" width="80" height="50" fill="#111" stroke="#0ff" stroke-width="1.5" rx="5"/>
+    <rect x="130" y="0" width="80" height="50" fill="#080808" stroke="#0ff" stroke-width="2" rx="8"/>
     <text x="135" y="30" font-size="10" font-family="monospace" fill="#0f0">print("Hi")</text>
 
     <!-- Mug -->
-    <rect x="40" y="50" width="10" height="15" rx="2" fill="#c33" />
+    <rect x="40" y="50" width="10" height="15" rx="2" fill="#ff4444" />
 
-    <!-- Person Body -->
-    <circle cx="170" cy="80" r="10" fill="#fcd" />
-    <rect x="165" y="90" width="10" height="20" fill="#fcd" />
-    <!-- Arms -->
-    <line x1="165" y1="95" x2="150" y2="85" stroke="#fcd" stroke-width="3"/>
-    <line x1="175" y1="95" x2="190" y2="85" stroke="#fcd" stroke-width="3"/>
-    <!-- Legs -->
-    <line x1="165" y1="110" x2="160" y2="125" stroke="#fcd" stroke-width="3"/>
-    <line x1="175" y1="110" x2="180" y2="125" stroke="#fcd" stroke-width="3"/>
+    <!-- Person -->
+    <circle cx="170" cy="80" r="10" fill="#ffe6e6" />
+    <rect x="165" y="90" width="10" height="20" fill="#ffe6e6" />
+    <line x1="165" y1="95" x2="150" y2="85" stroke="#ffe6e6" stroke-width="3"/>
+    <line x1="175" y1="95" x2="190" y2="85" stroke="#ffe6e6" stroke-width="3"/>
+    <line x1="165" y1="110" x2="160" y2="125" stroke="#ffe6e6" stroke-width="3"/>
+    <line x1="175" y1="110" x2="180" y2="125" stroke="#ffe6e6" stroke-width="3"/>
   </g>
 </svg>
