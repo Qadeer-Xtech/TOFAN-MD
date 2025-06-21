@@ -2,8 +2,7 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:FF0000&height=240&section=header&text=QADEER'S%20TOFAN%20BOT&fontSize=38&fontColor=FFCOCB&fontFamily=Roboto&animation=twinkling" width="100%"/>
-
+[![QADEER KHAN](https://raw.githubusercontent.com/Qadeer-bhai/TOFAN-MD/main/media/tofan.svg)](https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f)
 
 
 
