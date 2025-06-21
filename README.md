@@ -2,7 +2,7 @@
 
 
 
-[![QADEER KHAN](https://raw.githubusercontent.com/Qadeer-bhai/TOFAN-MD/main/media/tofan.svg)](https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f)
+[![QADEER KHAN](https://raw.githubusercontent.com/Qadeer-bhai/TOFAN-MD/main/Qadeer/tofan.svg)](https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f)
 
 
 
