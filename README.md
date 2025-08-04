@@ -42,7 +42,6 @@ ___
 <a href="https://github.com/Qadeer-bhai/TOFAN-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Qadeer-bhai/TOFAN-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/Qadeer-bhai/TOFAN-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Qadeer-bhai/TOFAN-MD?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/Qadeer-bhai/TOFAN-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Qadeer-bhai/TOFAN-MD?style=flat-square&color=green"></a>
-<p align="center"><img src="https://profile-counter.glitch.me/{Qadeer-bhai}/count.svg" alt="Qadeer-bhai :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Qadeer-bhai}/count.svg" /></p>
 <p align="center">
 <a href="https://github.com/Qadeer-bhai/TOFAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=Qadeer-bhai&label=VIEWS&style=flat-square&color=blue" />
